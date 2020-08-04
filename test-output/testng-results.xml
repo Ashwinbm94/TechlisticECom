@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50333" started-at="2020-08-04T23:21:22 IST" finished-at="2020-08-04T23:22:12 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50333" started-at="2020-08-04T23:21:22 IST" finished-at="2020-08-04T23:22:12 IST">
+      <class name="com.techlistic.testcase.TechlisticOrder">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@3b084709]" name="setUpTest" is-config="true" duration-ms="20162" started-at="2020-08-04T23:21:22 IST" finished-at="2020-08-04T23:21:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="placeAnOrder()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@3b084709]" name="placeAnOrder" duration-ms="30049" started-at="2020-08-04T23:21:42 IST" finished-at="2020-08-04T23:22:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeAnOrder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@3b084709]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-04T23:22:12 IST" finished-at="2020-08-04T23:22:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.techlistic.testcase.TechlisticOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

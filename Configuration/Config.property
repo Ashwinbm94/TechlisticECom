@@ -2,8 +2,12 @@ url=http://automationpractice.com/index.php
 
 browser=chrome
 
-chromeBrowserPath=./Drivers/chromedriver.exe
+chromeDriverPath=./Drivers/chromedriver.exe
 
 ExcelPath=./Configuration/Techlistic.xlsx
 
 ExcelSheetName=LoginDetails
+
+IEDriverPath=./Drivers/IEdriverServer.exe
+
+geckoDriverPath=./Drivers/geckodriver.exe

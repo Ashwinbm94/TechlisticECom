@@ -43,7 +43,15 @@ public class ConfigFileReader {
 	}
 
 	public String getChromeDriverPath() {
-		return properties.getProperty("chromeBrowserPath");
+		return properties.getProperty("chromeDriverPath");
+	}
+
+	public String getIEDriverPath() {
+		return properties.getProperty("IEDriverPath");
+	}
+
+	public String getGeckoDriverPath() {
+		return properties.getProperty("geckoDriverPath");
 	}
 
 }
