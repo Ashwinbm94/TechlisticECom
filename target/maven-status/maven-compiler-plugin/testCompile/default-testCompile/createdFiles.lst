@@ -12,5 +12,6 @@ com\techlistic\pages\CheckOutPage.class
 com\techlistic\pages\MyAccountPage.class
 com\techlistic\utility\BrowserFactory$1.class
 com\techlistic\utility\BrowserFactory.class
+com\techlistic\utility\ExtentReportListener.class
 com\techlistic\pages\LoginPage.class
 com\techlistic\pages\IndexPage.class

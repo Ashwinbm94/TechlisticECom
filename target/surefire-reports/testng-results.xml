@@ -2,24 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="92060" started-at="2020-08-04T23:28:34 IST" finished-at="2020-08-04T23:30:06 IST">
+  <suite name="Techlistic Application Automation Test Suite" duration-ms="109879" started-at="2020-08-06T22:27:25 IST" finished-at="2020-08-06T22:29:15 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="92060" started-at="2020-08-04T23:28:34 IST" finished-at="2020-08-04T23:30:06 IST">
+    <test name="Place An Order" duration-ms="109879" started-at="2020-08-06T22:27:25 IST" finished-at="2020-08-06T22:29:15 IST">
       <class name="com.techlistic.testcase.TechlisticOrder">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@39c0f4a]" name="setUpTest" is-config="true" duration-ms="30224" started-at="2020-08-04T23:28:34 IST" finished-at="2020-08-04T23:29:04 IST">
+        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@53b32d7]" name="setExtentReport" is-config="true" duration-ms="2006" started-at="2020-08-06T22:27:25 IST" finished-at="2020-08-06T22:27:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@53b32d7]" name="setUpTest" is-config="true" duration-ms="63978" started-at="2020-08-06T22:27:27 IST" finished-at="2020-08-06T22:28:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="placeAnOrder()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@39c0f4a]" name="placeAnOrder" duration-ms="60747" started-at="2020-08-04T23:29:04 IST" finished-at="2020-08-04T23:30:05 IST">
+        <test-method status="PASS" signature="placeAnOrder()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@53b32d7]" name="placeAnOrder" duration-ms="39340" started-at="2020-08-06T22:28:31 IST" finished-at="2020-08-06T22:29:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeAnOrder -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@39c0f4a]" name="teardown" is-config="true" duration-ms="1021" started-at="2020-08-04T23:30:05 IST" finished-at="2020-08-04T23:30:06 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.techlistic.testcase.TechlisticOrder@53b32d7]" name="teardown" is-config="true" duration-ms="2485" started-at="2020-08-06T22:29:10 IST" finished-at="2020-08-06T22:29:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeAnOrder status=SUCCESS method=TechlisticOrder.placeAnOrder()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.techlistic.testcase.TechlisticOrder@53b32d7]" name="endreport" is-config="true" duration-ms="1968" started-at="2020-08-06T22:29:13 IST" finished-at="2020-08-06T22:29:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
       </class> <!-- com.techlistic.testcase.TechlisticOrder -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Place An Order -->
+  </suite> <!-- Techlistic Application Automation Test Suite -->
 </testng-results>
