@@ -15,8 +15,8 @@ public class Utility {
 	public static String captureScreenshot(WebDriver driver, String screenshotName) {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		String screenShotPath = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + getCurrentDateTime()
-				+ ".png";
+		String screenShotPath = System.getProperty("user.dir") + "\\Screenshots\\" + screenshotName
+				+ getCurrentDateTime() + ".png";
 		try {
 			FileHandler.copy(source, new File(screenShotPath));
 		} catch (Exception e) {
